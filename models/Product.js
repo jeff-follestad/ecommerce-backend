@@ -21,6 +21,7 @@ Product.init(
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
       field: 'item price'
+      //validates that it's a decimal"
     },
     stock: {
       type: DataTypes.INTEGER,
@@ -28,7 +29,7 @@ Product.init(
       //set default value to 10
       //validate value is numeric
     },
-    user_id: {
+    category_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
@@ -36,7 +37,7 @@ Product.init(
       }
     }
   },
-  
+
   {
     sequelize,
     timestamps: false,
