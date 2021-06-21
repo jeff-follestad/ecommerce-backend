@@ -2,11 +2,11 @@
 
 ## Overview
 
-This goal of this back end project is to help online retailers modernize their e-commerce websites to create a better customer experience and increase profits.
+This back end project was built to help online retailers modernize their e-commerce websites to create a better customer shopping experience, and increase sales.
 
 ## Acceptance Criteria
 
-This projects leverage MySQL2 and Sequelize packages to connect Express.js API to a MySQL database and the dotenv package. The back-end includes environment variables to store sensitive data, like the MySQL username, password, and database name.
+This projects leverages MySQL2 and Sequelize packages to connect Express.js API to a MySQL database and the dotenv package. The back-end includes environment variables to store sensitive data, like the MySQL username, password, and database name.
 
 The user accesses the new database with their MySQL username, and MySQL password to an environment variable file. The user is then connected to the database using Sequelize.
 
