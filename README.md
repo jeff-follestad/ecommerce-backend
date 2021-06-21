@@ -18,4 +18,4 @@ API GET routes in Insomnia Core for categories, products, or tags, the the data 
 
 API POST, PUT, and DELETE routes in Insomnia Core successfully create, update, and delete data in my database
 
-
+https://www.awesomescreenshot.com/video/4200770?key=762d926bfbe03a7403deeb39d28acfa9
