@@ -2,7 +2,7 @@
 
 ## Overview
 
-This back end project was built to help online retailers modernize their e-commerce websites to create a better customer shopping experience, and increase sales.
+This project was built to help online retailers increase sales and customer satisfaction by modernizing the back end of their e-commerce websites.
 
 ## Acceptance Criteria
 
