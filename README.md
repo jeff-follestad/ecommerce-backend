@@ -16,6 +16,7 @@ The user enters the command to invoke the application and the server is started,
 
 API GET routes in Insomnia Core for categories, products, or tags, the the data for each of these routes is displayed in a formatted JSON.
 
-API POST, PUT, and DELETE routes in Insomnia Core successfully create, update, and delete data in my database
+API POST, PUT, and DELETE routes in Insomnia Core successfully create, update, and delete data in my database.
 
+A link to a video overview of this project and a demo of the routes in Insomnia Core can be found here:
 https://www.awesomescreenshot.com/video/4200770?key=762d926bfbe03a7403deeb39d28acfa9
