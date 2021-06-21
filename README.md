@@ -1,28 +1,21 @@
-# E-commerce Back End Starter Code
+# E-commerce Back End 
 
-## User Story
+## Overview
 
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies.
+This goal of this back end project is to help online retailers modernize their e-commerce websites to create a better customer experience and increase profits.
 
 ## Acceptance Criteria
 
-GIVEN a functional Express.js API
+This projects leverage MySQL2 and Sequelize packages to connect Express.js API to a MySQL database and the dotenv package. The back-end includes environment variables to store sensitive data, like the MySQL username, password, and database name.
 
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
+The user accesses the new database with their MySQL username, and MySQL password to an environment variable file. The user is then connected to the database using Sequelize.
 
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
+When the user enters schema and seed commands, a development database is created and is seeded with test data.
 
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
+The user enters the command to invoke the application and the server is started, and the Sequelize models are synced to the MySQL database.
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+API GET routes in Insomnia Core for categories, products, or tags, the the data for each of these routes is displayed in a formatted JSON.
 
-THEN the data for each of these routes is displayed in a formatted JSON
+API POST, PUT, and DELETE routes in Insomnia Core successfully create, update, and delete data in my database
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 
-THEN I am able to successfully create, update, and delete data in my database
